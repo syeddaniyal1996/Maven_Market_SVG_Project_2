@@ -34,3 +34,30 @@ A key highlight of this project is the migration from standard Power BI cards to
 
 ## Page 3: Regional Analysis
 <img width="1456" height="819" alt="03" src="https://github.com/user-attachments/assets/1b89258b-50a9-4669-adcc-8deadbcdc49a" />
+
+## 📈 Business Insights Extracted
+* # Target Achievement: Total Revenue successfully hit $1.20M, achieving a massive +112.18% growth vs LY, beating the internal target of $59.81K.
+
+* # Return Rate Control: The overall Return Rate was kept low at 0.85% (well below the critical 1.5% company threshold).
+
+* # Top Performer: USA emerged as the Top Region, contributing 61.9% of the total revenue share, with Portland and Tacoma stores leading in operational excellence.
+
+## 📂 Dataset Structure
+The dataset contains the following relational tables structured in a Star Schema:
+
+Fact_Sales (Sales transaction logs)
+
+Fact_Returns (Product return details)
+
+Dim_Products (Product specifications and brand listings)
+
+Dim_Stores (Store locations, country, and regional details)
+
+Dim_Calendar (Time intelligence setup)
+
+## 🎨 UI/UX Design System
+Background: Dark Slate #1E293B (Tailwind-inspired CSS palette)
+
+Typography: Clean, uniform Arial fonts with optimized vertical hierarchies
+
+Accents: Distinct color coding for specific metrics (Orange for Revenue, Blue for Stores, Purple for Transactions, Coral for Returns)
