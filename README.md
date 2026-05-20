@@ -26,12 +26,11 @@ This project transforms raw transactional, product, and store data into an inter
 ## 🧠 Advanced DAX & SVG Engineering
 A key highlight of this project is the migration from standard Power BI cards to custom-coded **SVG KPI Cards** to eliminate visual clutter and handle complex alignments.
 
-### Feature 1: Dynamic Revenue KPI (Custom SVG Code)
-Constructed a single-measure card displaying Current Value, Target, LY, LM, and an automatic green/red growth indicator:
-```dax
--- Example of the Revenue KPI logic built inside the project
-Revenue KPI SVG = 
-VAR Growth = DIVIDE([Total Revenue] - [Revenue LY], [Revenue LY])
-VAR ArrowColor = IF(Growth >= 0, "#22C55E", "#F87171")
-RETURN
-"data:image/svg+xml;utf8,<svg ...> ... </svg>"
+## Page 1: Executive Summary
+<img width="1455" height="820" alt="01" src="https://github.com/user-attachments/assets/85fa7a34-552f-4d5d-863e-2ee8b5e06ef0" />
+
+## Page 2: Product Performance
+<img width="1456" height="818" alt="02" src="https://github.com/user-attachments/assets/86ca6237-9e4c-48ed-93d2-d86b065357a0" />
+
+## Page 3: Regional Analysis
+<img width="1456" height="819" alt="03" src="https://github.com/user-attachments/assets/1b89258b-50a9-4669-adcc-8deadbcdc49a" />
